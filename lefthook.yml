@@ -16,4 +16,4 @@ pre-commit:
     type-check:
       run: pnpm tsc --noEmit
     lint-format:
-      run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files} && git update-index
+      run: pnpm biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
