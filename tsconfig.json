@@ -1,0 +1,20 @@
+{
+  // https://www.typescriptlang.org/tsconfig
+  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "compilerOptions": {
+    // Modules
+    "baseUrl": ".",
+    // Output
+    "outDir": "dist",
+    "target": "ES2021", // the higher target crashes
+    "sourceMap": true,
+    "incremental": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // Type Checking
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true
+  }
+}
